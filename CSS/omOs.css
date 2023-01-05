@@ -1,7 +1,7 @@
 .omOs{
     display: flex;
-    flex-direction: column-reverse;
-    height: 100vh;
+    flex-direction: column;
+    height: 160vh;
     width: 100vw;
 
     align-items: center;
