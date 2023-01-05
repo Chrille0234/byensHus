@@ -1,8 +1,10 @@
 @import url(header.css);
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url(index.css);
 @import url(baggrund.scss);
 @import url(omOs.css);
+@import url(bestilLokale.css);
+@import url(kontakt.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 *{
     margin: 0;
@@ -12,6 +14,13 @@
     font-family: "Montserrat", sans-serif;
     color: var(--text-clr);
     text-decoration: none;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
 
     /* farver */
     --background-clr: #f8e1ed;

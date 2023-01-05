@@ -28,6 +28,76 @@
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main class="kontakt" style="display: flex; flex-direction: row; gap: 50px;">
+        <div>
+        <h1 style="font-size: 3rem;">Kontakt os</h1>
+        <br><br><br>
+        <form class="cf">
+        <div>
+            <input type="text" id="input-name" placeholder="navn" required>
+            <input type="email" id="input-email" placeholder="Email" required>
+            <input type="text" id="input-subject" placeholder="Titel" required>
+        </div>
+        <div >
+            <textarea name="message" type="text" id="input-message" placeholder="besked" style="font-size: 2rem; color: black;" required></textarea>
+        </div>  
+        <input type="submit" value="Send besked" id="input-submit">
+        </form>
+    </div>
+    <div>
+        <table class="opening-hours table table-hover table-condensed borderless">
+        <thead>
+            <tr>
+          <th colspan="2" class="table-headline" style="margin-bottom: 80px;"><span style="font-size: 18px; color: black;">Åbningstider</span></th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <th>Mandag</th>
+                <td>
+                    08:00 - 16:00
+                </td>
+            </tr>
+            <tr>
+                <th>Tirsdag</th>
+                <td>
+                    08:00 - 18:00
+                </td>
+            </tr>
+            <tr>
+                <th>Onsdag</th>
+                <td>
+                    09:30 - 12:00
+                </td>
+            </tr>
+            <tr>
+                <th>Torsdag</th>
+                <td>
+                    08:00 - 18:00
+                </td>
+            </tr>
+            <tr>
+                <th>Fredag</th>
+                <td>
+                    10:00 - 16:00
+                </td>
+            </tr>
+            <tr>
+                <th>Lørdag</th>
+                <td>
+                    08:00 - 13:00
+                </td>
+            </tr>
+            <tr>
+                <th>Søndag</th>
+                <td>
+                    lukket
+                </td>
+            </tr>
+    
+        </tbody>
+    </table>
+    </div>
+    </main>
 </body>
 </html>
