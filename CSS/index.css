@@ -1,0 +1,103 @@
+.hvemErVi{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hvemErVi h1, .hvemErVi p{
+    width: 50%;
+    transform: translateY(120px);
+    text-align: center;
+
+    text-shadow: 1px 1px rgb(71, 70, 70);
+}
+.hvemErVi h1{
+    font-size: 2rem;
+}
+.hvemErVi p{
+    font-size: 1.5rem;
+}
+.godjul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    top: 8vh;
+}
+.godjul img{
+    aspect-ratio: 16/5;
+    width: 50%;
+
+    
+}
+
+
+.nyheder{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 400px);
+    gap:50px;
+    padding-bottom: 50px;
+
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.blåboks, .lillaboks, .gråboks, .grønboks, .gulboks, .sortboks, .brunboks, .cadetblåboks, .lyserødboks{
+    position: relative;
+    display: grid;
+    grid-row: auto;
+    grid-column: auto;
+
+
+    height: 300px;
+    width: 400px;
+    border-radius: 1em;
+}
+.nyheder div p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+/* ignorer */
+.blåboks{
+    background-color: blue;
+}
+.lillaboks{
+    background-color: rebeccapurple;
+
+}
+.grønboks{
+    background-color: green;
+}
+.gulboks{
+    background-color: yellow;
+}
+.gråboks{
+    background-color: gray;
+    
+}
+.sortboks{
+    background-color: black;
+    
+}
+.brunboks{
+    background-color: brown;
+}
+.cadetblåboks{
+    background-color: cadetblue;
+}
+.lyserødboks{
+    background-color: hotpink;
+}

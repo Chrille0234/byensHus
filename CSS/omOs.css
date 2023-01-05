@@ -1,0 +1,25 @@
+.omOs{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+}
+.omOs section{
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+    font-size: 1.6em;
+    border-bottom: black solid 3px;
+    padding-bottom: 20px;
+}
+
+.omOs i{
+    font-size: 5rem;
+    padding-inline: 1.2em;
+}

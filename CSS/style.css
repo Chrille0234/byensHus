@@ -1,0 +1,27 @@
+@import url(header.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url(index.css);
+@import url(baggrund.scss);
+@import url(omOs.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-clr);
+    text-decoration: none;
+
+    /* farver */
+    --background-clr: #f8e1ed;
+    --accent-clr: rgb(43, 41, 41);
+    --text-clr: white;
+}
+body{
+    /* background-color: var(--background-clr); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(circle at 51% 78%,rgba(149,176,249,1), rgba(149,176,249,0) 50%), radial-gradient(circle at 10% 10%,rgba(114,226,253,1), rgba(114,226,253,0) 50%), radial-gradient(circle at 90% 10%,rgba(184,150,255,1), rgba(184,150,255,0) 50%), radial-gradient(circle at 90% 90%,rgba(86,207,210,1), rgba(86,207,210,0) 50%), radial-gradient(circle at 10% 90%,rgba(168,112,253,1), rgba(168,112,253,0) 50%) ;
+}
+
